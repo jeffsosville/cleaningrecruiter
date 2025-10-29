@@ -371,6 +371,28 @@
             .email-form {
                 flex-direction: column;
             }
+
+            .nav-links {
+                display: none;
+            }
+
+            .logo {
+                font-size: 20px;
+            }
+
+            header {
+                padding: 15px 0;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .nav-links {
+                gap: 20px;
+            }
+
+            .nav-links a {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
@@ -465,7 +487,7 @@
             <div class="partnership-content">
                 <p>CleaningRecruiter is part of the Sosville Group ecosystem, working in close partnership with CleaningExits.com—the premier marketplace for buying and selling cleaning businesses.</p>
                 
-                <div class="partnership-logo">CleaningExits.com</div>
+                <a href="https://cleaningexits.com" class="partnership-logo" style="text-decoration: none;">CleaningExits.com</a>
                 
                 <p>This unique integration means we serve clients across the entire business lifecycle—from growth and expansion through acquisition and exit. Whether you're scaling your operation, preparing for sale, or acquiring a new business, we provide comprehensive support for both your deal and your talent needs.</p>
 

@@ -32,6 +32,7 @@
             position: sticky;
             top: 0;
             z-index: 100;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
 
         .header-content {
@@ -43,7 +44,7 @@
         .logo {
             font-size: 24px;
             font-weight: 700;
-            color: #2563eb;
+            color: #000000;
         }
 
         .nav-links {
@@ -54,18 +55,18 @@
 
         .nav-links a {
             text-decoration: none;
-            color: #4b5563;
+            color: #000000;
             font-weight: 500;
             transition: color 0.3s;
         }
 
         .nav-links a:hover {
-            color: #2563eb;
+            color: #666666;
         }
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            background: #000000;
             color: white;
             padding: 80px 0;
             text-align: center;
@@ -90,18 +91,19 @@
         .cta-button {
             display: inline-block;
             background: white;
-            color: #2563eb;
+            color: #000000;
             padding: 16px 32px;
             border-radius: 8px;
             text-decoration: none;
             font-weight: 600;
             font-size: 18px;
             transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid white;
         }
 
         .cta-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 25px rgba(255,255,255,0.3);
         }
 
         /* What We Do Section */
@@ -135,7 +137,7 @@
         .service-card h3 {
             font-size: 24px;
             margin-bottom: 15px;
-            color: #2563eb;
+            color: #000000;
         }
 
         .service-card p {
@@ -170,14 +172,15 @@
         .stat-card {
             text-align: center;
             padding: 30px;
-            background: #eff6ff;
+            background: #f9fafb;
             border-radius: 12px;
+            border: 1px solid #e5e7eb;
         }
 
         .stat-number {
             font-size: 48px;
             font-weight: 700;
-            color: #2563eb;
+            color: #000000;
             display: block;
         }
 
@@ -203,12 +206,13 @@
             display: inline-block;
             font-size: 32px;
             font-weight: 700;
-            color: #2563eb;
+            color: #000000;
             margin: 30px 0;
             padding: 20px 40px;
             background: white;
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border: 2px solid #e5e7eb;
         }
 
         .partnership p {
@@ -230,7 +234,7 @@
             background: white;
             padding: 25px;
             border-radius: 8px;
-            border-left: 4px solid #2563eb;
+            border-left: 4px solid #000000;
         }
 
         .integration-point h4 {
@@ -281,7 +285,7 @@
 
         /* CTA Section */
         .cta-section {
-            background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+            background: #000000;
             color: white;
             padding: 80px 0;
             text-align: center;
@@ -314,8 +318,8 @@
         }
 
         .submit-button {
-            background: #10b981;
-            color: white;
+            background: white;
+            color: #000000;
             padding: 16px 32px;
             border: none;
             border-radius: 8px;
@@ -326,7 +330,7 @@
         }
 
         .submit-button:hover {
-            background: #059669;
+            background: #f9fafb;
         }
 
         /* Footer */
@@ -429,13 +433,9 @@
         <div class="container">
             <h2 class="section-title">Who We Are</h2>
             <div class="about-content">
-                <p>CleaningRecruiter is built by Jeff and John Sosville, founders of Sosville Group, bringing over 20 years of deep industry expertise in service business operations, marketplace building, and data infrastructure.</p>
+                <p>CleaningRecruiter is built by Jeff and John Sosville of Sosville Group. We've spent 20+ years building vertical marketplaces in service industries, most notably ATM Brokerage, which became the dominant platform in the ATM industry.</p>
                 
-                <p>We've built successful vertical platforms before. Our ATM Brokerage became the dominant marketplace in the ATM industry by systematically building infrastructure that didn't exist—aggregating listings, connecting buyers and sellers, and creating the professional network that defined the space.</p>
-                
-                <p>Now we're applying that same approach to talent in the cleaning industry. Instead of trying to be recruiters, we're building the platform infrastructure—aggregating job listings from across the web, organizing them by role and specialization, and creating the first comprehensive career resource exclusively for cleaning professionals.</p>
-
-                <p>Our network spans 60,000+ cleaning companies and 1,500+ business brokers across the industry. We understand the operational realities of commercial cleaning businesses, the career paths that exist within them, and the talent gaps that companies struggle to fill.</p>
+                <p>We're applying that same infrastructure-first approach to cleaning industry talent. Our network spans 60,000+ cleaning companies and 1,500+ brokers across commercial cleaning, janitorial services, and facility management.</p>
 
                 <div class="stats">
                     <div class="stat-card">
